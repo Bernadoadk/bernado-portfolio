@@ -19,7 +19,7 @@ export const Skills = () => {
                     <ReactIcon size={42} className="animate-spin" style={{animationDuration: "10s",}}/>
                     <h3 className="text-2xl font-semibold tracking-tight">React</h3>
                     <p className="text-sm text-muted-foreground">
-                        My main framework is <Link href="https://react.dev/"><Code className="inline-flex items-center gap-1"><ReactIcon size={12} className="inline-flex items-center gap-1"/> React.js</Code></Link>. I also used <Link href="https://nextjs.org/"><Code className="inline-flex items-center gap-1"><NextIcon size={14} className="inline"/> Next.js</Code></Link> as a backend and frontend framework and I can create <u>beautiful</u> application using <Link href="https://tailwindcss.com/"><Code className="inline-flex items-center gap-1"><TailwindIcon size={12} className="inline"/> TailwindCSS</Code></Link>.
+                        My main framework is <Link href="https://react.dev/"><Code className="inline-flex items-center gap-1"><ReactIcon size={12} className="inline-flex items-center gap-1"/> React.js/native</Code></Link>. I also used <Link href="https://nextjs.org/"><Code className="inline-flex items-center gap-1"><NextIcon size={14} className="inline"/> Next.js</Code></Link> as a backend and frontend framework and I can create <u>beautiful</u> application using <Link href="https://tailwindcss.com/"><Code className="inline-flex items-center gap-1"><TailwindIcon size={12} className="inline"/> TailwindCSS</Code></Link>.
                     </p>
                 </div>
 

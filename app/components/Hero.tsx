@@ -22,7 +22,7 @@ export const Hero = () => {
                 <Code className="inline-flex items-center gap-1">
                     <VueIcon size={10} className="inline"/> Vue.js
                 </Code></Link>,{" "}
-                <Link href="https://tailwindcss.com/"><Code className="inline-flex items-center gap-1"><TailwindIcon size={12} className="inline"/> Tailwind</Code></Link>,{" "} <Link href="https://react.dev/"><Code className="inline-flex items-center gap-1"><ReactIcon size={12} className="inline"/> React.js</Code></Link>,{" "} <Link href="https://nextjs.org/"><Code className="inline-flex items-center gap-1"><NextIcon size={14} className="inline"/> Next.js</Code></Link>,{" "}
+                <Link href="https://tailwindcss.com/"><Code className="inline-flex items-center gap-1"><TailwindIcon size={12} className="inline"/> Tailwind</Code></Link>,{" "} <Link href="https://react.dev/"><Code className="inline-flex items-center gap-1"><ReactIcon size={12} className="inline"/> React.js/native</Code></Link>,{" "} <Link href="https://nextjs.org/"><Code className="inline-flex items-center gap-1"><NextIcon size={14} className="inline"/> Next.js</Code></Link>,{" "}
                 <Link href="https://www.typescriptlang.org/"><Code className="inline-flex items-center gap-1"><TypescriptIcon size={14} className="inline"/> TypeScript</Code></Link>
                 and Game Developer in{" "} <Link href="https://www.typescriptlang.org/"><Code className="inline-flex items-center gap-1"><UnrealEngineIcon size={14} className="inline"/> Unreal Egine</Code></Link>.
             </p>
