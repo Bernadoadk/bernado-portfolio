@@ -39,7 +39,7 @@ export const Status = () => {
                 <p className="text-lg text-muted-foreground">Contact me</p>
                 <ContactCard url="https://www.linkedin.com/in/bernado-adikpeto-3025921a1/" name="Bernado ADIKPETO" image="https://media.licdn.com/dms/image/v2/D4E03AQFQqOkT4sG7Vg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727865409050?e=1733356800&v=beta&t=cwuTQi96AhtqHoEI4w_Bj0_3Fkp8Q4Lan8VvuHXpHNw"
                     mediumImage="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" description="93 connections" />
-                <ContactCard url="https://www.x.com/samsama200/" name="@samsama200" image="https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-1/404299461_3550959411842530_2862157633117672424_n.jpg?stp=dst-jpg_s200x200&_nc_cat=102&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=QhcDenmn1dYQ7kNvgHQkmeS&_nc_ht=scontent-los2-1.xx&_nc_gid=AxeqPunnkt1jKRdKI26UwPm&oh=00_AYC1BAhnuW478_ou5vLTwTLHiPD31bAvuVJNBQj0E4BCDQ&oe=6703ADCF"
+                <ContactCard url="https://www.x.com/samsama200/" name="@samsama200" image="https://media.licdn.com/dms/image/v2/D4E03AQFQqOkT4sG7Vg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727865409050?e=1733356800&v=beta&t=cwuTQi96AhtqHoEI4w_Bj0_3Fkp8Q4Lan8VvuHXpHNw"
                     mediumImage="https://freepnglogo.com/images/all_img/1725374683twitter-x-logo.png" description="10 followers" />
             </Card>
         </div>
@@ -49,7 +49,7 @@ export const Status = () => {
 const SIDE_PROJECT: SideProjectProps[] = [
     {
         Logo: Cookie,
-        title: "Food delvery",
+        title: "Wazoun Food delvery",
         description: "A food delvery app",
         url: "/",
     },
@@ -61,19 +61,19 @@ const SIDE_PROJECT: SideProjectProps[] = [
     },
     {
         Logo: CarTaxiFront,
-        title: "Uber clone",
+        title: "Uber clone - Nova",
         description: "A driver search app like uber",
         url: "/",
     },
     {
         Logo: Music,
-        title: "Spotify clone",
+        title: "Spotify clone - Waɖótó",
         description: "A music platform like Spotify",
         url: "/",
     },
     {
         Logo: Gamepad2,
-        title: "2D Video game",
+        title: "2D Video game - Les Amazon",
         description: "A 2D platformer video game",
         url: "/",
     },
