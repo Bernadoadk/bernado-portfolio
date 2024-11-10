@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card"
 import { Section } from "./Section"
-import { CarTaxiFront, Cookie, Gamepad, Gamepad2, Languages, Music, ShoppingBag } from "lucide-react"
+import { CarTaxiFront, Cookie, Gamepad2, Music, ShoppingBag } from "lucide-react"
 import { ContactCard } from "./ContactCard"
 import { SideProject, SideProjectProps } from "./SideProject"
 import { Work, WorkProps } from "./Work"
