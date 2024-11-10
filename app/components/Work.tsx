@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
+import Image from "next/image"; // Importez le composant Image de Next.js
 
 export type WorkProps = {
     image: string;
@@ -13,9 +14,11 @@ export type WorkProps = {
 export const Work = (props: WorkProps) => {
     return (
         <Link href={props.url} className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded">
-            <img
+            <Image
                 src={props.image}
                 alt={props.title}
+                width={40} // Spécifiez la largeur
+                height={40} // Spécifiez la hauteur
                 className="w-10 h-10 object-contain rounded-md"
             />
             <div className="mr-auto">

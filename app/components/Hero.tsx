@@ -7,6 +7,7 @@ import { ReactIcon } from "../icons/ReactIcon"
 import Link from "next/link"
 import { Code } from "./Code"
 import { UnrealEngineIcon } from "../icons/UnrealEngineIcon"
+import Image from "next/image" // Importez le composant Image de Next.js
 
 
 export const Hero = () => {
@@ -24,20 +25,22 @@ export const Hero = () => {
                 </Code></Link>,{" "}
                 <Link href="https://tailwindcss.com/"><Code className="inline-flex items-center gap-1"><TailwindIcon size={12} className="inline"/> Tailwind</Code></Link>,{" "} <Link href="https://react.dev/"><Code className="inline-flex items-center gap-1"><ReactIcon size={12} className="inline"/> React.js/native</Code></Link>,{" "} <Link href="https://nextjs.org/"><Code className="inline-flex items-center gap-1"><NextIcon size={14} className="inline"/> Next.js</Code></Link>,{" "}
                 <Link href="https://www.typescriptlang.org/"><Code className="inline-flex items-center gap-1"><TypescriptIcon size={14} className="inline"/> TypeScript</Code></Link>
-                and Game Developer in{" "} <Link href="https://www.typescriptlang.org/"><Code className="inline-flex items-center gap-1"><UnrealEngineIcon size={14} className="inline"/> Unreal Egine</Code></Link>.
+                and Game Developer in{" "} <Link href="https://www.typescriptlang.org/"><Code className="inline-flex items-center gap-1"><UnrealEngineIcon size={14} className="inline"/> Unreal Engine</Code></Link>.
             </p>
             <p>
             </p>
             <p>
-                Originally from <Link href="https://www.typescriptlang.org/"><Code className="inline-flex items-center gap-1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/125px-Flag_of_Benin.svg.png" style={{width: 16, height: "auto"}} alt="benin flag" /> Benin</Code></Link> in West Africa, I currently live in Abomey-Calavi.
-                I write about creative development from a front-end developer's perspective
+                Originally from <Link href="https://www.typescriptlang.org/"><Code className="inline-flex items-center gap-1"><Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/125px-Flag_of_Benin.svg.png" width={16} height={10} alt="benin flag" /> Benin</Code></Link> in West Africa, I currently live in Abomey-Calavi.
+                I write about creative development from a front-end developer&apos;s perspective
                 and can successfully lead projects as an intermediate-level full stack web developer,
                 with more experience in front-end than back-end development.
             </p>
         </div>
         <div className="flex-[2] max-md:m-auto ml-auto">
-            <img 
+            <Image 
                 src="https://avatars.githubusercontent.com/u/72017295?v=4"
+                width={150} // Ajoutez des dimensions appropriées
+                height={150}
                 className="w-full h-auto max-w-xs max-md:w-56 rounded-full"
                 alt="bernado's picture"
             />
