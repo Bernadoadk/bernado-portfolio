@@ -38,7 +38,7 @@ export const Hero = () => {
         </div>
         <div className="flex-[2] max-md:m-auto ml-auto">
             <Image 
-                src="https://avatars.githubusercontent.com/u/72017295?v=4"
+                src="../images/Bernado-ADIKPETO.png"
                 width={150} // Ajoutez des dimensions appropriées
                 height={150}
                 className="w-full h-auto max-w-xs max-md:w-56 rounded-full"
