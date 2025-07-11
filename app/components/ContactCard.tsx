@@ -3,9 +3,10 @@ import { cn } from "@/lib/utils";
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image"; // Importez le composant Image de Next.js
+import type { StaticImageData } from "next/image";
 
 export const ContactCard = (props: {
-    image: string;
+    image: string | StaticImageData;
     mediumImage: string;
     name: string;
     description: string;

@@ -8,6 +8,7 @@ import Link from "next/link"
 import { Code } from "./Code"
 import { UnrealEngineIcon } from "../icons/UnrealEngineIcon"
 import Image from "next/image" // Importez le composant Image de Next.js
+import bernadoImage from "../images/Bernado-ADIKPETO.png"
 
 
 export const Hero = () => {
@@ -37,13 +38,16 @@ export const Hero = () => {
             </p>
         </div>
         <div className="flex-[2] max-md:m-auto ml-auto">
-            <Image 
-                src="../images/Bernado-ADIKPETO.png"
-                width={150} // Ajoutez des dimensions appropriées
-                height={150}
-                className="w-full h-auto max-w-xs max-md:w-56 rounded-full"
-                alt="bernado's picture"
-            />
+            <div className="relative w-[350px] h-[350px] flex items-center justify-center">
+                <span className="glow-border absolute inset-0 z-10 pointer-events-none"></span>
+                <Image 
+                    src={bernadoImage}
+                    width={350}
+                    height={350}
+                    className="w-[350px] h-[350px] object-cover rounded-full max-w-xs max-md:w-56 relative z-20"
+                    alt="bernado's picture"
+                />
+            </div>
         </div>
     </Section>
 }

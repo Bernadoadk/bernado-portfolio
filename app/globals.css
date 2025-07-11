@@ -45,3 +45,18 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Effet de bordure lumineuse animée autour de l'image */
+.glow-border {
+  border-radius: 9999px;
+  border: 6px solid transparent;
+  background: conic-gradient(from 0deg, #fff 10%, transparent 30%, transparent 70%, #fff 90%, #fff 100%);
+  filter: blur(2px) brightness(1.5);
+  animation: spin-glow 2.5s linear infinite;
+}
+
+@keyframes spin-glow {
+  100% {
+    transform: rotate(360deg);
+  }
+}

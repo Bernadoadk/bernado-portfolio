@@ -4,11 +4,12 @@ import { CarTaxiFront, Cookie, Gamepad2, Music, ShoppingBag } from "lucide-react
 import { ContactCard } from "./ContactCard"
 import { SideProject, SideProjectProps } from "./SideProject"
 import { Work, WorkProps } from "./Work"
+import bernadoImage from "../images/Bernado-ADIKPETO.png"
 
 export const Status = () => {
     return <Section className="flex max-md:flex-col items-start gap-4">
         <div className="flex-[3] w-full">
-            <Card className="p-4 flex flex-col gap-2 w-full">
+            <Card className="p-4 flex flex-col gap-2 w-full w-[500px] h-[484px]">
                 <p className="text-lg text-muted-foreground">Side, fun project</p>
                 <div className="flex flex-col gap-4">
                     {SIDE_PROJECT.map((project, index) => (
@@ -24,7 +25,7 @@ export const Status = () => {
             </Card>
         </div>
         <div className="flex-[2] w-full flex flex-col gap-4">
-            <Card className="p-4 flex-1">
+            <Card className="p-4 flex-1 w-[470px] h-[484px]">
                 <p className="text-lg text-muted-foreground">Work</p>
                 <div className="flex flex-col gap-4">
                     {WORKS.map((work, index) => (
@@ -37,9 +38,9 @@ export const Status = () => {
             </Card>
             <Card className="p-4 flex-1 flex flex-col gap-2">
                 <p className="text-lg text-muted-foreground">Contact me</p>
-                <ContactCard url="https://www.linkedin.com/in/bernado-adikpeto-3025921a1/" name="Bernado ADIKPETO" image="https://media.licdn.com/dms/image/v2/D4E03AQFQqOkT4sG7Vg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727865409050?e=1733356800&v=beta&t=cwuTQi96AhtqHoEI4w_Bj0_3Fkp8Q4Lan8VvuHXpHNw"
+                <ContactCard url="https://www.linkedin.com/in/bernado-adikpeto-3025921a1/" name="Bernado ADIKPETO" image={bernadoImage}
                     mediumImage="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" description="93 connections" />
-                <ContactCard url="https://www.x.com/samsama200/" name="@samsama200" image="https://media.licdn.com/dms/image/v2/D4E03AQFQqOkT4sG7Vg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727865409050?e=1733356800&v=beta&t=cwuTQi96AhtqHoEI4w_Bj0_3Fkp8Q4Lan8VvuHXpHNw"
+                <ContactCard url="https://www.x.com/samsama200/" name="@samsama200" image={bernadoImage}
                     mediumImage="https://freepnglogo.com/images/all_img/1725374683twitter-x-logo.png" description="10 followers" />
             </Card>
         </div>
@@ -94,5 +95,12 @@ const WORKS: WorkProps[] = [
         date: "2019 and 2024",
         url: "https://malaikagames.com",
         //freelance: true,
+    },
+    {
+        image: "https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg", // Remplacer par le logo de Vertim Coder si disponible
+        title: "Vertim Coder",
+        role: "Développeur",
+        date: "Depuis 5 mai 2025",
+        url: "#",
     },
 ]
